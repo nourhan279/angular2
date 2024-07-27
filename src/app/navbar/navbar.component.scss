@@ -1,0 +1,22 @@
+.navbar {
+  background-color: white;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  display: fixed;
+  top: 0 !important;
+  box-shadow: 0 4px 8px rgba(110, 109, 109, 0.1);
+
+  a {
+    color: rgb(77, 173, 247);
+    i {
+      color: black;
+    }
+  }
+
+  a:hover {
+    background-color: lightgray;
+    margin-left: 10px;
+  }
+}
